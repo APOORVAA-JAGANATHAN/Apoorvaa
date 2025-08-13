@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Cream</title>
+    <style>
+        *{
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .header{
+            background:  #fff5f8; 
+            padding: 20px;
+            /* height: 60px;  */
+        }
+        .nav1{
+             width:40%;
+        }
+        .nav3{
+            width:40%;
+        }
+        .logo{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;   
+        } 
+        .nav1 ul{
+            display: flex;
+            gap: 3px;
+            justify-content: space-evenly;
+            list-style: none;
+            /* font-weight: bold; */
+        }
+         .nav2 ul{
+            display: flex;
+            list-style: none;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .nav2 ul li {
+        font-size: 36px; 
+        font-weight: bold;
+        color: hotpink;
+        }
+        .nav3 ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+            gap: 3px;
+            /* font-weight: bold; */
+        }
+        
+        .fullnav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       }
+        input[type="search"] {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+        .content{
+         display: flex;
+         justify-content: space-evenly;
+       }
+        .container img{
+          width: 100%;
+          height: 400px;         
+       }
+       .card{
+            
+                width: 200px;
+                border: 2px solid #f9d4e3;
+                box-shadow: 2px 2px 20px solid rgba(215, 38, 114, 0.1);
+                padding: 15px;
+                text-align: center;
+                background: #fffafc;
+        }
+        .card img{
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .container1{
+                 display: flex;
+                 flex-wrap: wrap;
+                 justify-content: center;
+                 gap: 50px;    
+                 padding: 50px;        
+        }
+        .con {
+                display: flex;
+                justify-content: space-around;
+                justify-content: flex;
+            }
+        .card button {
+                padding: 5px 10px;
+                background-color:  #ff99bb; 
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                color: white;
+                font-weight: bold;
+        }
+        .card button:hover {
+        background-color: #d72672;
+        color: white;
+        }
+        .bestseller-heading {
+        text-align: center;
+        font-size: 28px;
+        color: #d72672;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .bestseller-subheading {
+        text-align: center;
+        font-size: 18px;
+        color: gray;
+        margin-bottom: 20px;
+    }
+     .footer {
+        background-color: #fff0f5; 
+        padding: 40px 20px;
+        color: #333;
+        font-family: Arial, sans-serif;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;   */
+        flex-wrap: wrap;
+    }
+    .footer > form{
+        margin-bottom: 20px;
+    }
+    .footer-links {
+    display: inline-block;
+    margin: 10px 20px; 
+    text-align: left;
+     min-width: 200px;
+    }
+  .footer h3 {
+        color: #d72672; 
+        margin-bottom: 15px;
+    }
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px;
+    }
+     .footer input[type="email"] {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        width: 200px; 
+    }
+    .footer button {
+        padding: 8px 15px;
+        border: none;
+        background-color: #ff6699;
+        color: white;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .footer button:hover {
+        background-color: #d72672;
+    }
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+    }
+    .footer-links ul li {
+        margin-bottom: 8px;
+    }
+    .footer-links ul li a {
+        text-decoration: none;
+        color: #555;
+    }
+    .footer-links ul li a:hover {
+    color: #d72672; 
+    }
+    .footer-social {
+        margin-top: 15px;
+    }
+    .footer-social a {
+        margin-right: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        justify-content: center;
+    }
+    .footer-bottom {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #888;
+    }
+    </style>
+</head>
+ <body>
+    </header>
+    <header class="header">
+        <div class="fullnav">
+            
+            <nav class="nav1">
+            
+                <ul>
+                    <li>HOME</li>
+                    <li>SHOP</li>
+                    <li>CUSTOM CAKE</li>
+                    <li>TRENDING CAKE</li>
+                    <li>COMPANY</li>
+                    <li>LOCATION</li>
+                </ul>
+            </nav>
+                <nav class="nav2">
+                <ul> 
+                <li>Cloud Cream</li>
+                </ul> 
+            </nav> 
+            <nav class="nav3">
+                <ul>
+                <input type="search" placeholder="Search..."> 
+                <li>ADD TO CART</li> 
+                <li>LOGIN/REGISTER</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+        <img src="Background.jpeg">
+        <br><br><br><br>
+        <h1 class="bestseller-heading">BESTSELLER CAKES ONLINE</h1>
+        <p class="bestseller-subheading">Delectably Delicious in Every Layers!</p>
+        </div>
+        <div class="con">
+
+         <div class="container1">
+        <div class="card">
+        <img src="CAKE1.jpeg">
+        <p>Red velvet delight<br>Rs.550.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+        <div class="card">
+        <img src="CAKE2.jpeg">
+        <p>Chocolate Cake<br>Rs.450.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+        <div class="card">
+        <img src="CAKE3.jpeg">
+        <p>Butterscotch cream cake<br>Rs.850.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+        <div class="card">
+        <img src="CAKE4.jpeg">
+        <p>Blackcurrant<br>Rs.650.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+        <div class="card">
+        <img src="CAKE5.jpeg">
+        <p>Black Forest Cake<br>Rs.550.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+        <div class="card">
+        <img src="CAKE6.jpeg">
+        <p>Rainbow Cake<br>Rs.1,450.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+         <div class="card">
+        <img src="CAKE7.jpeg">
+        <p>Pinata Cake<br>Rs.950.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+        <div class="card">
+        <img src="CAKE8.jpeg">
+        <p>Oreo Cake<br>Rs.1,450.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+         <div class="card">
+        <img src="CAKE9.jpeg">
+        <p>strawberry<br>Rs.550.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+        <div class="card">
+        <img src="CAKE10.jpeg">
+        <p>Fresh fruit cream cake<br>Rs.450.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+        <div class="card">
+        <img src="CAKE11.jpeg">
+        <p>KitKat Gems Choco Cake<br>Rs.850.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+        <div class="card">
+        <img src="CAKE12.jpeg">
+        <p>Moonlit Dreams Babyshower Cake<br>Rs.1,850.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+        <div class="card">
+        <img src="CAKE13.jpeg">
+        <p>Pastel Perfect Unicorn Cake<br>Rs.850.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+         <div class="card">
+        <img src="CAKE14.jpeg">
+        <p>Velvety Bloom Birthday Cake<br>Rs.4,850.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+        <div class="card">
+        <img src="CAKE15.jpeg">
+        <p>aby Blue Half To One Kids Cake<br>Rs.850.00</p><br><br>
+        <button>ADD TO CART</button>
+        </div>
+        </main>
+    
+
+     <footer class="footer">
+        <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+        <form>
+            <input type="email" placeholder="Enter Email Address">
+            <button type="submit">→</button>
+        </form>
+       <!-- <div class="footer-container">
+            <div>
+                <h3>Cloud Cream</h3>
+                <p>© 2025</p>
+                <div class="footer-social">
+                    <a href="#">📘</a>
+                    <a href="#">📸</a>
+                    <a href="#">🐦</a>
+                    <a href="#">🔗</a>
+                    <a href="#">▶</a>
+                </div>-->
+                </div> 
+            <div class="footer-links">
+                <h3>KNOW US</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Locate Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>NEED HELP</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Cancellation And Refund</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms And Conditions</a></li>
+                    <li><a href="#">Customer Grievance</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>MORE INFO</h3>
+                <ul>
+                    <li><a href="#">Corporate Cakes</a></li>
+                    <li><a href="#">Coupons & Offers</a></li>
+                    <li><a href="#">Download App</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Designed for cake lovers ♥
+        </div>
+    </footer>
+ </body>
+</html> 
+
+
+
